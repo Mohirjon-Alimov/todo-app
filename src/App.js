@@ -45,7 +45,7 @@ function App() {
     setTodos([...todos, ...uncompleted]);
     // renderingTodos([])
     renderingTodos(setTodos([...todos]))
-    console.log(todos);
+    // console.log(todos);
   }
   let renderingTodos = (todos)=>{
     return(
